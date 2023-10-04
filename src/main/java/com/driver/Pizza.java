@@ -27,6 +27,8 @@ public class Pizza {
         }
         this.extraCheesePrice = 80;
         this.paperBagPrice = 20;
+
+        this.price = this.basePrice;
     }
 
     public int getPrice(){
